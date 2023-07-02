@@ -19,7 +19,7 @@ Projet Organization
 
 -------
 
-#  Get started
+#  Getting started
 
 ## Function
 1. `load_past7days(date, mode = 'country')`
@@ -32,9 +32,12 @@ Merges the top data from the past 7 days into a single dictionary. It takes all_
 Writes the top 50 songs for each country (or user) to a file. It takes top (the merged top data) and mode (indicating whether it is for country or user data) as input. It writes the top 50 songs to a text file in the specified format.
 
 
-## Run main.py
-The main entry point of the code. It executes the following steps:
+## Usage
 
+To run the script, simply open a terminal or command prompt window, navigate to the directory where the script is located, and type the following command:
+`python main.py`
+
+The main entry point of the code. It executes the following steps:
 1. Sets the today_date variable to a specific date.
 2. Initializes the country_top and user_top dictionaries.
 3. Reads data using the read_csv_with_error_handling function, populating the country_top and user_top dictionaries.
@@ -43,9 +46,9 @@ The main entry point of the code. It executes the following steps:
 6. Merges the past 7 days of country using the merge_tops function.
 7. Collects all user IDs and merges the past 7 days of user top data.
 8. Saves the merged sorted top data to disk using the write_top function.
+----------------------
 
-## Usage 
-1. Adjust the `today_date` variable in the `main` section to the desired date.
-2. Ensure that the necessary dependencies are installed and accessible.
+*  Adjust the `today_date` variable in the `main` section to the desired date.
+*   Ensure that the necessary dependencies are installed and accessible.
 Please note that the code assumes the existence of specific file and directory structures. Make sure that the directories (`../records/`and `../outputs/`) exist and have the required write permissions.
 
