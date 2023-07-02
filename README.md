@@ -3,7 +3,7 @@ Objective
 ========================
 
 The objective of this exercise is to suggest a system that computes on a daily basis, the top 50 songs the most listened in each country on the last 7 days, as
-well as the top 50 songs (optional) the most listened by each user on the last 7 days.
+well as the top 50 songs the most listened by each user on the last 7 days.
 
 Projet Organization
 -------------
