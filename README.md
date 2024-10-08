@@ -1,7 +1,3 @@
-This project aims to create a recommendation system capable of suggesting films to users based on their preferences and available data. 
-We are using two main approaches: item-based collaborative filtering and user profile-based filtering.
-
-
 # 电影推荐项目
 
 ## 样本数据集
